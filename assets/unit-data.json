@@ -1,0 +1,298 @@
+[
+  {
+    "id": "time",
+    "label": "Time",
+    "primaryScaleId": "hour",
+    "secondaryScaleId": "second",
+    "scales": [
+      {
+        "id": "second",
+        "pluralLabel": "Seconds",
+        "abbreviation": "s",
+        "conversionFactor": 1.0
+      },
+      {
+        "id": "minute",
+        "pluralLabel": "Minutes",
+        "abbreviation": "min",
+        "conversionFactor": 60.0
+      },
+      {
+        "id": "hour",
+        "pluralLabel": "Hours",
+        "abbreviation": "h",
+        "conversionFactor": 3600.0
+      },
+      {
+        "id": "day",
+        "pluralLabel": "Days",
+        "abbreviation": "d",
+        "conversionFactor": 86400.0
+      },
+      {
+        "id": "week",
+        "pluralLabel": "Weeks",
+        "abbreviation": "w",
+        "conversionFactor": 604800.0
+      },
+      {
+        "id": "year",
+        "pluralLabel": "Years",
+        "abbreviation": "y",
+        "conversionFactor": 31536000.0
+      }
+    ]
+  },
+  {
+    "id": "length",
+    "label": "Length",
+    "primaryScaleId": "mile",
+    "secondaryScaleId": "kilometer",
+    "scales": [
+      {
+        "id": "millimeter",
+        "pluralLabel": "Millimeters",
+        "abbreviation": "mm",
+        "conversionFactor": 0.001
+      },
+      {
+        "id": "centimeter",
+        "pluralLabel": "Centimeters",
+        "abbreviation": "cm",
+        "conversionFactor": 0.01
+      },
+      {
+        "id": "inch",
+        "pluralLabel": "Inches",
+        "abbreviation": "in",
+        "conversionFactor": 0.0254
+      },
+      {
+        "id": "foot",
+        "pluralLabel": "Feet",
+        "abbreviation": "ft",
+        "conversionFactor": 0.3048
+      },
+      {
+        "id": "yard",
+        "pluralLabel": "Yards",
+        "abbreviation": "yd",
+        "conversionFactor": 0.9144
+      },
+      {
+        "id": "meter",
+        "pluralLabel": "Meters",
+        "abbreviation": "m",
+        "conversionFactor": 1.0
+      },
+      {
+        "id": "kilometer",
+        "pluralLabel": "Kilometers",
+        "abbreviation": "km",
+        "conversionFactor": 1000.0
+      },
+      {
+        "id": "mile",
+        "pluralLabel": "Miles",
+        "abbreviation": "mi",
+        "conversionFactor": 1609.344
+      }
+    ]
+  },
+  {
+    "id": "mass",
+    "label": "Mass",
+    "primaryScaleId": "pound",
+    "secondaryScaleId": "kilogram",
+    "scales": [
+      {
+        "id": "milligram",
+        "pluralLabel": "Milligrams",
+        "abbreviation": "mg",
+        "conversionFactor": 0.001
+      },
+      {
+        "id": "gram",
+        "pluralLabel": "Grams",
+        "abbreviation": "g",
+        "conversionFactor": 1.0
+      },
+      {
+        "id": "ounce",
+        "pluralLabel": "Ounces",
+        "abbreviation": "oz",
+        "conversionFactor": 28.349523125
+      },
+      {
+        "id": "pound",
+        "pluralLabel": "Pounds",
+        "abbreviation": "lb",
+        "conversionFactor": 453.59237
+      },
+      {
+        "id": "kilogram",
+        "pluralLabel": "Kilograms",
+        "abbreviation": "kg",
+        "conversionFactor": 1000.0
+      },
+      {
+        "id": "ton",
+        "pluralLabel": "Tons",
+        "abbreviation": "ton",
+        "conversionFactor": 907184.74
+      }
+    ]
+  },
+  {
+    "id": "area",
+    "label": "Area",
+    "primaryScaleId": "acre",
+    "secondaryScaleId": "squaremeter",
+    "scales": [
+      {
+        "id": "squareinch",
+        "pluralLabel": "Square inches",
+        "abbreviation": "in²",
+        "conversionFactor": 0.00064516
+      },
+      {
+        "id": "squarefoot",
+        "pluralLabel": "Square feet",
+        "abbreviation": "ft²",
+        "conversionFactor": 0.0929
+      },
+      {
+        "id": "squareyard",
+        "pluralLabel": "Square yards",
+        "abbreviation": "yd²",
+        "conversionFactor": 0.83612736
+      },
+      {
+        "id": "squaremeter",
+        "pluralLabel": "Square meters",
+        "abbreviation": "m²",
+        "conversionFactor": 1.0
+      },
+      {
+        "id": "acre",
+        "pluralLabel": "Acres",
+        "abbreviation": "acre",
+        "conversionFactor": 4046.873
+      },
+      {
+        "id": "squaremile",
+        "pluralLabel": "Square miles",
+        "abbreviation": "mi²",
+        "conversionFactor": 2589988.110336
+      }
+    ]
+  },
+  {
+    "id": "volume",
+    "label": "Volume",
+    "primaryScaleId": "gallon",
+    "secondaryScaleId": "liter",
+    "scales": [
+      {
+        "id": "milliliter",
+        "pluralLabel": "Milliliters",
+        "abbreviation": "mL",
+        "conversionFactor": 1.0
+      },
+      {
+        "id": "teaspoon",
+        "pluralLabel": "Teaspoons",
+        "abbreviation": "tsp",
+        "conversionFactor": 4.92892159375
+      },
+      {
+        "id": "tablespoon",
+        "pluralLabel": "Tablespoons",
+        "abbreviation": "tbsp",
+        "conversionFactor": 14.78676478125
+      },
+      {
+        "id": "cubicinch",
+        "pluralLabel": "Cubic inches",
+        "abbreviation": "in³",
+        "conversionFactor": 16.387064
+      },
+      {
+        "id": "fluidounce",
+        "pluralLabel": "Fluid ounce",
+        "abbreviation": "fl oz",
+        "conversionFactor": 29.5735295625
+      },
+      {
+        "id": "cup",
+        "pluralLabel": "Cup",
+        "abbreviation": "c",
+        "conversionFactor": 236.5882365
+      },
+      {
+        "id": "pint",
+        "pluralLabel": "Pint",
+        "abbreviation": "pt",
+        "conversionFactor": 473.176473
+      },
+      {
+        "id": "quart",
+        "pluralLabel": "Quart",
+        "abbreviation": "qt",
+        "conversionFactor": 946.352946
+      },
+      {
+        "id": "liter",
+        "pluralLabel": "Liters",
+        "abbreviation": "L",
+        "conversionFactor": 1000.0
+      },
+      {
+        "id": "gallon",
+        "pluralLabel": "Gallon",
+        "abbreviation": "gal",
+        "conversionFactor": 3785.411784
+      }
+    ]
+  },
+  {
+    "id": "velocity",
+    "label": "Speed",
+    "primaryScaleId": "meterspersecond",
+    "secondaryScaleId": "meterspersecond",
+    "scales": [
+      {
+        "id": "meterspersecond",
+        "pluralLabel": "Meters per second",
+        "abbreviation": "m/s",
+        "conversionFactor": 1.0
+      }
+    ]
+  },
+  {
+    "id": "temperature",
+    "label": "Temperature",
+    "primaryScaleId": "fahrenheit",
+    "secondaryScaleId": "celsius",
+    "scales": [
+      {
+        "id": "celsius",
+        "pluralLabel": "Celsius",
+        "abbreviation": "°C",
+        "conversionFactor": 1.0
+      },
+      {
+        "id": "fahrenheit",
+        "pluralLabel": "Fahrenheit",
+        "abbreviation": "°F",
+        "conversionFactor": 1.8
+      },
+      {
+        "id": "kelvin",
+        "pluralLabel": "Kelvin",
+        "abbreviation": "K",
+        "conversionFactor": 1.0
+      }
+    ]
+  }
+]
